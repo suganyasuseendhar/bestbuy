@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="11" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-24T17:40:45 IST" name="Suite" finished-at="2023-04-24T18:14:00 IST" duration-ms="1994806">
+    <groups>
+    </groups>
+    <test started-at="2023-04-24T17:40:45 IST" name="Test" finished-at="2023-04-24T18:14:00 IST" duration-ms="1994806">
+      <class name="com.bestbuy.tests.ShopDepartmentTest">
+        <test-method signature="departmentToCart()[pri:0, instance:com.bestbuy.tests.ShopDepartmentTest@65c7a252]" started-at="2023-04-24T18:10:18 IST" name="departmentToCart" finished-at="2023-04-24T18:12:52 IST" duration-ms="154293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- departmentToCart -->
+      </class> <!-- com.bestbuy.tests.ShopDepartmentTest -->
+      <class name="com.bestbuy.tests.SelectCountryTest">
+        <test-method signature="selectCountry()[pri:0, instance:com.bestbuy.tests.SelectCountryTest@3012646b]" started-at="2023-04-24T17:49:37 IST" name="selectCountry" finished-at="2023-04-24T17:50:23 IST" duration-ms="46621" status="FAIL">
+          <exception class="org.junit.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<Best Buy[ | Official Online Store | Shop Now & Save]> but was:<Best Buy[[ | Official Online Store | Shop Now & Save]]]]><![CDATA[>expected:<Best Buy[ | Official Online Store | Shop Now & Save]> but was:<Best Buy[[ | Official Online Store | Shop Now & Save]]><![CDATA[]]]]><![CDATA[>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.junit.ComparisonFailure: expected:<Best Buy[ | Official Online Store | Shop Now & Save]> but was:<Best Buy[[ | Official Online Store | Shop Now & Save]]]]><![CDATA[>
+at org.junit.Assert.assertEquals(Assert.java:117)
+at org.junit.Assert.assertEquals(Assert.java:146)
+at com.bestbuy.tests.SelectCountryTest.selectCountry(SelectCountryTest.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.junit.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCountry -->
+      </class> <!-- com.bestbuy.tests.SelectCountryTest -->
+      <class name="com.bestbuy.tests.LoginPageOpenTest">
+        <test-method signature="loginOpen()[pri:0, instance:com.bestbuy.tests.LoginPageOpenTest@2e6a8155]" started-at="2023-04-24T17:44:20 IST" name="loginOpen" finished-at="2023-04-24T17:45:56 IST" duration-ms="95344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginOpen -->
+      </class> <!-- com.bestbuy.tests.LoginPageOpenTest -->
+      <class name="com.bestbuy.tests.ValidateMenuTest">
+        <test-method signature="menuVerify()[pri:0, instance:com.bestbuy.tests.ValidateMenuTest@5677323c]" started-at="2023-04-24T18:02:08 IST" name="menuVerify" finished-at="2023-04-24T18:03:13 IST" duration-ms="65024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuVerify -->
+        <test-method signature="validateTitle()[pri:0, instance:com.bestbuy.tests.ValidateMenuTest@5677323c]" started-at="2023-04-24T18:03:13 IST" name="validateTitle" finished-at="2023-04-24T18:06:56 IST" duration-ms="222935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+      </class> <!-- com.bestbuy.tests.ValidateMenuTest -->
+      <class name="com.bestbuy.tests.CreateAccountTest">
+        <test-method signature="newAccount()[pri:0, instance:com.bestbuy.tests.CreateAccountTest@537f60bf]" started-at="2023-04-24T18:00:12 IST" name="newAccount" finished-at="2023-04-24T18:02:08 IST" duration-ms="116538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newAccount -->
+      </class> <!-- com.bestbuy.tests.CreateAccountTest -->
+      <class name="com.bestbuy.tests.SelectItemByBrandTest">
+        <test-method signature="byBrand()[pri:0, instance:com.bestbuy.tests.SelectItemByBrandTest@6221a451]" started-at="2023-04-24T17:45:56 IST" name="byBrand" finished-at="2023-04-24T17:47:29 IST" duration-ms="93767" status="FAIL">
+          <exception class="org.junit.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<[Apple iPad mini (Latest Model) with Wi-Fi 64GB Space Gray MK7M3LL/A] - Best Buy> but was:<[Cart] - Best Buy>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.junit.ComparisonFailure: expected:<[Apple iPad mini (Latest Model) with Wi-Fi 64GB Space Gray MK7M3LL/A] - Best Buy> but was:<[Cart] - Best Buy>
+at org.junit.Assert.assertEquals(Assert.java:117)
+at org.junit.Assert.assertEquals(Assert.java:146)
+at com.bestbuy.tests.SelectItemByBrandTest.byBrand(SelectItemByBrandTest.java:38)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.junit.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- byBrand -->
+      </class> <!-- com.bestbuy.tests.SelectItemByBrandTest -->
+      <class name="com.bestbuy.tests.SearchItemTestPage">
+        <test-method signature="addToCartParticularItem()[pri:0, instance:com.bestbuy.tests.SearchItemTestPage@4d154ccd]" started-at="2023-04-24T18:12:52 IST" name="addToCartParticularItem" finished-at="2023-04-24T18:14:00 IST" duration-ms="67408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartParticularItem -->
+      </class> <!-- com.bestbuy.tests.SearchItemTestPage -->
+      <class name="com.bestbuy.tests.TakeScreenshotTest">
+        <test-method signature="takeShoot()[pri:0, instance:com.bestbuy.tests.TakeScreenshotTest@18df8434]" started-at="2023-04-24T18:06:56 IST" name="takeShoot" finished-at="2023-04-24T18:10:18 IST" duration-ms="201276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeShoot -->
+      </class> <!-- com.bestbuy.tests.TakeScreenshotTest -->
+      <class name="com.bestbuy.tests.FooterTest">
+        <test-method signature="bottomLinkVerification()[pri:0, instance:com.bestbuy.tests.FooterTest@5824a83d]" started-at="2023-04-24T17:58:43 IST" name="bottomLinkVerification" finished-at="2023-04-24T18:00:12 IST" duration-ms="88438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bottomLinkVerification -->
+      </class> <!-- com.bestbuy.tests.FooterTest -->
+      <class name="com.bestbuy.tests.OrderConformationTest">
+        <test-method signature="sucessfullOrder()[pri:0, instance:com.bestbuy.tests.OrderConformationTest@51c668e3]" started-at="2023-04-24T17:41:06 IST" name="sucessfullOrder" finished-at="2023-04-24T17:44:20 IST" duration-ms="193975" status="FAIL">
+          <exception class="org.junit.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<Checkout [–] Best Buy> but was:<Checkout [-] Best Buy>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.junit.ComparisonFailure: expected:<Checkout [–] Best Buy> but was:<Checkout [-] Best Buy>
+at org.junit.Assert.assertEquals(Assert.java:117)
+at org.junit.Assert.assertEquals(Assert.java:146)
+at com.bestbuy.tests.OrderConformationTest.sucessfullOrder(OrderConformationTest.java:43)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.junit.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sucessfullOrder -->
+      </class> <!-- com.bestbuy.tests.OrderConformationTest -->
+      <class name="com.bestbuy.tests.brokenLinkTest">
+        <test-method signature="checkurl()[pri:0, instance:com.bestbuy.tests.brokenLinkTest@6bd61f98]" started-at="2023-04-24T17:40:45 IST" name="checkurl" finished-at="2023-04-24T17:41:06 IST" duration-ms="21087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkurl -->
+      </class> <!-- com.bestbuy.tests.brokenLinkTest -->
+      <class name="com.bestbuy.tests.LoginTest">
+        <test-method signature="loginBestbuy()[pri:0, instance:com.bestbuy.tests.LoginTest@52719fb6]" started-at="2023-04-24T17:47:29 IST" name="loginBestbuy" finished-at="2023-04-24T17:49:37 IST" duration-ms="127226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBestbuy -->
+      </class> <!-- com.bestbuy.tests.LoginTest -->
+      <class name="com.bestbuy.tests.PaymentTest">
+        <test-method signature="paymentToCart()[pri:0, instance:com.bestbuy.tests.PaymentTest@4a883b15]" started-at="2023-04-24T17:50:23 IST" name="paymentToCart" finished-at="2023-04-24T17:58:43 IST" duration-ms="499994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentToCart -->
+      </class> <!-- com.bestbuy.tests.PaymentTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

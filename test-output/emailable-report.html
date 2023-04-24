@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">11</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">1,994,806</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.bestbuy.tests.OrderConformationTest</td><td><a href="#m0">sucessfullOrder</a></td><td rowspan="1">1682338266688</td><td rowspan="1">193975</td></tr><tr class="failedodd"><td rowspan="1">com.bestbuy.tests.SelectCountryTest</td><td><a href="#m1">selectCountry</a></td><td rowspan="1">1682338777038</td><td rowspan="1">46621</td></tr><tr class="failedeven"><td rowspan="1">com.bestbuy.tests.SelectItemByBrandTest</td><td><a href="#m2">byBrand</a></td><td rowspan="1">1682338556035</td><td rowspan="1">93767</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.bestbuy.tests.CreateAccountTest</td><td><a href="#m3">newAccount</a></td><td rowspan="1">1682339412312</td><td rowspan="1">116538</td></tr><tr class="passedodd"><td rowspan="1">com.bestbuy.tests.FooterTest</td><td><a href="#m4">bottomLinkVerification</a></td><td rowspan="1">1682339323852</td><td rowspan="1">88438</td></tr><tr class="passedeven"><td rowspan="1">com.bestbuy.tests.LoginPageOpenTest</td><td><a href="#m5">loginOpen</a></td><td rowspan="1">1682338460688</td><td rowspan="1">95344</td></tr><tr class="passedodd"><td rowspan="1">com.bestbuy.tests.LoginTest</td><td><a href="#m6">loginBestbuy</a></td><td rowspan="1">1682338649807</td><td rowspan="1">127226</td></tr><tr class="passedeven"><td rowspan="1">com.bestbuy.tests.PaymentTest</td><td><a href="#m7">paymentToCart</a></td><td rowspan="1">1682338823661</td><td rowspan="1">499994</td></tr><tr class="passedodd"><td rowspan="1">com.bestbuy.tests.SearchItemTestPage</td><td><a href="#m8">addToCartParticularItem</a></td><td rowspan="1">1682340172928</td><td rowspan="1">67408</td></tr><tr class="passedeven"><td rowspan="1">com.bestbuy.tests.ShopDepartmentTest</td><td><a href="#m9">departmentToCart</a></td><td rowspan="1">1682340018609</td><td rowspan="1">154293</td></tr><tr class="passedodd"><td rowspan="1">com.bestbuy.tests.TakeScreenshotTest</td><td><a href="#m10">takeShoot</a></td><td rowspan="1">1682339816900</td><td rowspan="1">201276</td></tr><tr class="passedeven"><td rowspan="2">com.bestbuy.tests.ValidateMenuTest</td><td><a href="#m11">menuVerify</a></td><td rowspan="1">1682339528937</td><td rowspan="1">65024</td></tr><tr class="passedeven"><td><a href="#m12">validateTitle</a></td><td rowspan="1">1682339593963</td><td rowspan="1">222935</td></tr><tr class="passedodd"><td rowspan="1">com.bestbuy.tests.brokenLinkTest</td><td><a href="#m13">checkurl</a></td><td rowspan="1">1682338245594</td><td rowspan="1">21087</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">com.bestbuy.tests.OrderConformationTest#sucessfullOrder</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.junit.ComparisonFailure: expected:&lt;Checkout [–] Best Buy&gt; but was:&lt;Checkout [-] Best Buy&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.bestbuy.tests.OrderConformationTest.sucessfullOrder(OrderConformationTest.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.bestbuy.tests.SelectCountryTest#selectCountry</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.junit.ComparisonFailure: expected:&lt;Best Buy[ | Official Online Store | Shop Now &amp; Save]&gt; but was:&lt;Best Buy[[ | Official Online Store | Shop Now &amp; Save]]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.bestbuy.tests.SelectCountryTest.selectCountry(SelectCountryTest.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.bestbuy.tests.SelectItemByBrandTest#byBrand</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.junit.ComparisonFailure: expected:&lt;[Apple iPad mini (Latest Model) with Wi-Fi 64GB Space Gray MK7M3LL/A] - Best Buy&gt; but was:&lt;[Cart] - Best Buy&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.bestbuy.tests.SelectItemByBrandTest.byBrand(SelectItemByBrandTest.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.bestbuy.tests.CreateAccountTest#newAccount</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.bestbuy.tests.FooterTest#bottomLinkVerification</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.bestbuy.tests.LoginPageOpenTest#loginOpen</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.bestbuy.tests.LoginTest#loginBestbuy</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.bestbuy.tests.PaymentTest#paymentToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.bestbuy.tests.SearchItemTestPage#addToCartParticularItem</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.bestbuy.tests.ShopDepartmentTest#departmentToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.bestbuy.tests.TakeScreenshotTest#takeShoot</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.bestbuy.tests.ValidateMenuTest#menuVerify</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.bestbuy.tests.ValidateMenuTest#validateTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.bestbuy.tests.brokenLinkTest#checkurl</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
